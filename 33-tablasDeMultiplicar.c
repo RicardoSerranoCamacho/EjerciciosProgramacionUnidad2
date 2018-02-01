@@ -3,7 +3,7 @@ Autor: Alvar Peniche 28/Enero/18
 Imprimir  las  primeras  n  tablas  de  multiplicar  que  incluyan
 desde  el  valor  j hasta el valor k. 
 
-Entradas: números enteros
+Entradas: nÃºmeros enteros
 
 Salidas:las  primeras  n  tablas  de  multiplicar  que  incluyan
 desde  el  valor  menor hasta el valor mayor. 
@@ -15,9 +15,9 @@ desde  el  valor  menor hasta el valor mayor.
 int main(int argc, char *argv[]) {
 	int tablaMenor, tablaMayor, producto;
 	
-	printf("inserte el número menor: "); 
+	printf("inserte el nÃºmero menor: "); 
 	scanf("%d", &tablaMenor);//se lee el valor j
-	printf("inserte el número mayor: ");
+	printf("inserte el nÃºmero mayor: ");
 	scanf("%d", &tablaMayor);//se lee el valor k
 	
 	for(int tablaActual= tablaMenor; tablaActual<=tablaMayor; tablaActual++){ //se inicia ciclo para imprimir todas las tablas
