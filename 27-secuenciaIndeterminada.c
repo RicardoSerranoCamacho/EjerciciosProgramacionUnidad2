@@ -1,11 +1,11 @@
 /*
 Autor: Alvar Peniche 28/Enero/18
-Leer una secuencia de números no determinada (finalizará la lectura cuando 
-el último número sea igual a 999) y calcular la media aritmética.
+Leer una secuencia de nÃºmeros no determinada (finalizarÃ¡ la lectura cuando 
+el Ãºltimo nÃºmero sea igual a 999) y calcular la media aritmÃ©tica.
 
-Entradas: números reales
+Entradas: nÃºmeros reales
 
-Salidas:La media aritemtica de todos esos números 
+Salidas:La media aritemtica de todos esos nÃºmeros 
 */
 
 #include <stdio.h>
@@ -18,10 +18,10 @@ int main(int argc, char *argv[]) {
 	while (1){  /*se abre ciclo infinito*/
 		contador= contador + 1;
 		
-		printf("Inserte el número %d de la serie:", contador);
-		scanf("%f", &cantidad );  /*lee número de la serie*/
+		printf("Inserte el nÃºmero %d de la serie:", contador);
+		scanf("%f", &cantidad );  /*lee nÃºmero de la serie*/
 				
-		promedio= promedio + cantidad; 	/*Se suma el nuevo número a la seria*/
+		promedio= promedio + cantidad; 	/*Se suma el nuevo nÃºmero a la seria*/
 		
 		
 		if (cantidad==999){
